@@ -16,7 +16,7 @@ public class Task {
     private void getMultipleValue(ArrayList<Float> array){
         String result="";
         for (int i=0; i<array.size(); i++){
-            if (array.get(i)%3==0)
+            if ((array.get(i)%3==0)&&array.get(i)!=0)
                 result +=array.get(i)+" ";
         }
         System.out.println(result);
